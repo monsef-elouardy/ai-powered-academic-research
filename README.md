@@ -64,16 +64,48 @@ L'application repose sur une architecture client-serveur à trois niveaux coupla
 
 ### 1. Cloner le dépôt
 ```bash
-git clone [https://github.com/monsef-elouardy/ai-powered-academic-research.git](https://github.com/monsef-elouardy/ai-powered-academic-research.git)
+git clone https://github.com/monsef-elouardy/ai-powered-academic-research.git
 cd ai-powered-academic-research
+```
 
 ### 2. Configuration du Backend (Flask)
+
+1. Accédez au dossier serveur et activez l'environnement virtuel :
+```bash
 cd server
 python -m venv venv
 source venv/bin/activate  # Sur Windows : venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+2. Créez un fichier `.env` à la racine du dossier `server` et ajoutez vos clés API :
+```env
+OPENAI_API_KEY=votre_cle_openai
+GOOGLE_API_KEY=votre_cle_google
+ZEROGPT_API_KEY=votre_cle_zerogpt
+MONGO_URI=mongodb://localhost:27017/
+ELASTICSEARCH_HOST=http://localhost:9200
+```
+
+3. Démarrez le serveur backend :
+```bash
+python app.py
+```
 
 ### 3. Configuration du Frontend (React)
+Dans un second terminal :
+```bash
 cd client
 npm install
 npm start
+```
+L'application sera accessible à l'adresse : `http://localhost:3000`.
+
+---
+
+## 👥 Auteurs & Encadrement
+
+* **Réalisé par :** El Ouardy Monsef & El Ayadi Oualid[cite: 56]
+* **Encadrante :** Pr. Noura Aherrahrou[cite: 56]
+* **Formation :** Licence en Sciences Mathématiques et Informatiques (SMI) – Projet de Fin d'Études (2024/2025)[cite: 56]
+* **Établissement :** Faculté des Sciences Dhar El Mahraz – Université Sidi Mohamed Ben Abdellah, Fès[cite: 56]

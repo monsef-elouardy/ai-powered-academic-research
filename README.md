@@ -42,13 +42,15 @@ L'application repose sur une architecture client-serveur à trois niveaux coupla
 ![Page d'accueil TPS](screenshots/accueil.jpg)
 
 ### 2. Module de Traduction Multilingue (avec support Amazigh & Audio)
-![Interface de Traduction](screenshots/traduction.jpg)
+![Interface de Traduction](screenshots/Traduction.jpg)
 
-### 3. Détection de Plagiat & Analyse IA
+### 3. Détection de Plagiat
 ![Résultats Détection de Plagiat](screenshots/plagiat_test.jpg)
+
+### 4. Analyse IA
 ![Résultats Détection AI](screenshots/Detection_AI.jpg)
 
-### 4. Recherche de Similarité Multimodale (CLIP)
+### 5. Recherche de Similarité Multimodale (CLIP)
 ![Résultats Analyse de Similarité](screenshots/similarite.jpg)
 
 ---

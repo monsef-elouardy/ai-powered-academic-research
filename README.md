@@ -63,6 +63,7 @@ L'application repose sur une architecture client-serveur à trois niveaux coupla
 * MongoDB et Elasticsearch installés et démarrés localement
 
 ### 1. Cloner le dépôt
+```bash
 git clone [https://github.com/monsef-elouardy/ai-powered-academic-research.git](https://github.com/monsef-elouardy/ai-powered-academic-research.git)
 cd ai-powered-academic-research
 
